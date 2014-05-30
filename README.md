@@ -3,7 +3,7 @@ Spotify-Conky
 
 Review 
 ------
-This will display current playing song information of native Spotify client. It also attempts to fetch the track cover and displays it. 
+This conky file and script will display current playing song information of native Spotify client. It also attempts to fetch the track cover and displays it. 
 
 Requirements
 ------------
