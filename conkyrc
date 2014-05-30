@@ -1,0 +1,27 @@
+#Spotify-Conky
+background no
+font sans:size=8
+#xftfont sans:size=10
+
+own_window yes
+own_window_transparent yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+draw_shades no
+draw_outline no
+draw_borders no
+double_buffer yes
+no_buffers yes
+
+alignment tr
+gap_x 15
+gap_y 80
+minimum_size 180 150
+
+TEXT
+${if_running spotify}
+${image ~/.conky/spotify-display/current_artwork.png -p 80,0 -s 87x87 -n}
+${voffset -30}${offset 10}${color0}${font LL_Record:size=50}d
+${voffset -50}${offset 5 }${font}${color1}${execpi 2 $HOME/.conky/spotify-display/spotify_getinfo.sh}
+${endif}
+
