@@ -7,7 +7,7 @@ This will display current playing song information of native Spotify client. It 
 
 Requirements
 ------------
-conky, dbus, wget, spotify-client
+conky, dbus, wget, spotify-client, [LL Record font](http://www.dafont.com/ll-record.font)
 
 Installation
 ------------
