@@ -3,6 +3,7 @@ background no
 font sans:size=8
 #xftfont sans:size=10
 
+use_xft yes
 own_window yes
 own_window_transparent yes
 own_window_type normal
@@ -20,8 +21,7 @@ minimum_size 180 150
 
 TEXT
 ${if_running spotify}
-${image ~/.conky/spotify-display/current_artwork.png -p 80,0 -s 87x87 -n}
-${voffset -30}${offset 10}${color0}${font LL_Record:size=50}d
-${voffset -50}${offset 5 }${font}${color1}${execpi 2 $HOME/.conky/spotify-display/spotify_getinfo.sh}
+${image ~/.conky/spotify/current_artwork.png -p 80,0 -s 87x87 -n}
+${execpi 2 $HOME/.conky/spotify/spotify_getinfo.pl}
 ${endif}
 
