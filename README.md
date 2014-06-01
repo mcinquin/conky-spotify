@@ -1,4 +1,4 @@
-Spotify-Conky
+conky-spotify
 =============
 
 Review 
