@@ -3,6 +3,8 @@
 ## Review 
 This conky file and script will display current playing song information of native Spotify client. It also attempts to fetch the track cover and displays it.
 
+![Screenshot](https://github.com/Shini31/conky-spotify/screenshot.png)
+
 ## Requirements
 conky, dbus, spotify-client, libwww-perl, libnet-dbus-perl, [LL Record font](http://www.dafont.com/ll-record.font)
 
