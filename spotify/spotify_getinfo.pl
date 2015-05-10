@@ -1,9 +1,15 @@
 #!/usr/bin/perl
 
+###
+## Version  Date      Author  Description
+##----------------------------------------------
+## 1.0      31/05/14  Shini   1.0 stable release
+##
+####
+
 use strict;
 use warnings;
 use Net::DBus;
-use LWP::Simple;
 
 # Global Variables
 my ($current_track_status, $current_track_arturl, $current_track_artist, $current_track_title, $stored_current_track);
