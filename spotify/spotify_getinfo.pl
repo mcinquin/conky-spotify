@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
 ###
-## Version  Date      Author  Description
+## Version  Date      Author    Description
 ##----------------------------------------------
-## 1.0      31/05/14  Shini   1.0 stable release
+## 1.0      31/05/14  Shini31   1.0 stable release
+## 1.1      10/05/15  Shini31   1.1 fix version
 ##
 ####
 
