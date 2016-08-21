@@ -21,7 +21,7 @@ minimum_size 180 150
 
 TEXT
 ${if_running spotify}
-${image ~/.conky/spotify/current_artwork.png -p 80,0 -s 87x87 -n}
+${image $HOME/.conky/spotify/current_artwork.jpg -p 80,0 -s 87x87 -n}
 ${execpi 2 $HOME/.conky/spotify/spotify_getinfo.pl}
 ${endif}
 

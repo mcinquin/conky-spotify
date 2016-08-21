@@ -16,7 +16,7 @@ use Net::DBus;
 my ($current_track_status, $current_track_arturl, $current_track_artist, $current_track_title, $stored_current_track);
 my $home_directory = "/home/shini";
 my $conky_directory = $home_directory."/.conky/spotify/";
-my $current_artwork = $conky_directory."current_artwork.png";
+my $current_artwork = $conky_directory."current_artwork.jpg";
 my $row;
 
 # Dbus construction
